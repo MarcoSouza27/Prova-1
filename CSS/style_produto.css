@@ -1,0 +1,49 @@
+table {
+    border-collapse: collapse;
+    -webkit-border-radius: 5%;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    margin: 2% 0 2% 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+table thead tr {
+    background: lightblue;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2%;
+}
+
+table tbody td, table thead th {
+    padding: 10px;
+    text-align: center;
+}
+
+table tbody td {
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:hover {
+    background-color: pink;
+}
+
+table tbody td img {
+max-width: 85px;
+max-height: 85px;
+border-radius: 15px;
+}
+
+table tbody td img:hover {
+    transform: scale(2.2); 
+}
+
+.zebra {
+background-color: lightblue;
+}
+
+#institucional {
+    padding: 3%;
+}
